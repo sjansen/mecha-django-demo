@@ -1,0 +1,10 @@
+#!/bin/bash
+set -e
+
+VIRTUALENV=local/venv3
+
+if [ ! -d "$VIRTUALENV" ]; then
+  python3 -m venv "$VIRTUALENV"
+fi
+
+"$VIRTUALENV"/bin/pip install --upgrade -r requirements3.txt

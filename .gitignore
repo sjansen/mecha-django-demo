@@ -1,0 +1,9 @@
+# Directories
+.pytest_cache/
+
+# Files
+.DS_Store
+
+# Patterns
+*.py[co]
+.*.sw[op]

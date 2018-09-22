@@ -1,0 +1,10 @@
+#!/bin/bash
+set -e
+
+VIRTUALENV=local/venv
+
+if [ ! -d "$VIRTUALENV" ]; then
+  virtualenv "$VIRTUALENV"
+fi
+
+"$VIRTUALENV"/bin/pip install --upgrade -r requirements.txt
