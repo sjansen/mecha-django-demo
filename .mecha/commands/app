@@ -1,0 +1,7 @@
+# vim: set syntax=python:
+
+command(
+    name="app",
+    setup=cmd("./scripts/check-venv"),
+    start=cmd("./local/venv/bin/python", "manage.py", "runserver"),
+)
