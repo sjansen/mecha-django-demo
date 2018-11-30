@@ -2,6 +2,12 @@
 
 script(
     name="app",
-    before=cmd("./scripts/check-venv"),
-    commands=cmd("./local/venv/bin/python", "manage.py", "runserver"),
+    prepare=[cmd("./scripts/check-app-venv")],
+    steps=[cmd("./local/app-venv/bin/python", "manage.py", "runserver")],
+)
+
+script(
+    name="migrate",
+    prepare=[cmd("./scripts/check-app-venv")],
+    steps=[cmd("./local/app-venv/bin/python", "manage.py", "migrate")],
 )
