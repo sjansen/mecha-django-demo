@@ -1,0 +1,11 @@
+#!/bin/bash
+set -e
+
+VIRTUALENV=local/app-venv
+
+if [ ! -d "$VIRTUALENV" ]; then
+  exit 1
+fi
+
+export PATH="$PWD/$VIRTUALENV/bin:$PATH"
+"$@"
