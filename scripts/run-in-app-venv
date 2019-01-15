@@ -8,4 +8,4 @@ if [ ! -d "$VIRTUALENV" ]; then
 fi
 
 export PATH="$PWD/$VIRTUALENV/bin:$PATH"
-"$@"
+exec "$@"
