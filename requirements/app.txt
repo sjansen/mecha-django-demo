@@ -7,7 +7,7 @@ autobahn==20.12.3
 Automat==20.2.0
 billiard==3.6.3.0
 celery==5.0.5
-channels==2.1.7
+channels==3.0.3
 channels-redis==2.3.3
 constantly==15.1.0
 daphne==2.2.3
