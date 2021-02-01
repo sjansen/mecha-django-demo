@@ -10,7 +10,7 @@ celery==5.0.5
 channels==3.0.3
 channels-redis==3.2.0
 constantly==15.1.0
-daphne==2.2.3
+daphne==3.0.1
 Django==2.1.7
 hiredis==0.3.0
 hyperlink==18.0.0
