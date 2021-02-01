@@ -6,7 +6,7 @@ attrs==20.3.0
 autobahn==20.12.3
 Automat==20.2.0
 billiard==3.6.3.0
-celery==4.2.1
+celery==5.0.5
 channels==2.1.7
 channels-redis==2.3.3
 constantly==15.1.0
