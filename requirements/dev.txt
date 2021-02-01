@@ -1,4 +1,4 @@
-appdirs==1.4.3
+appdirs==1.4.4
 attrs==20.3.0
 black==18.9b0
 Click==7.0
