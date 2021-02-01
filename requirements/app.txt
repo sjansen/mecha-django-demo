@@ -5,7 +5,7 @@ async-timeout==3.0.1
 attrs==20.3.0
 autobahn==20.12.3
 Automat==20.2.0
-billiard==3.5.0.5
+billiard==3.6.3.0
 celery==4.2.1
 channels==2.1.7
 channels-redis==2.3.3
